@@ -1,0 +1,9 @@
+@layer components {
+  .live-text {
+    @apply text-white bg-blue font-bold text-[48px];
+  }
+
+  .live-text:after {
+    @apply bg-blue;
+  }
+}
