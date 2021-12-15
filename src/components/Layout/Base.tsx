@@ -1,4 +1,5 @@
 import { BaseProps } from "../../types/components/Layout/Base";
+import { prefix } from "../../utils/prefix";
 import { Footer } from "./Footer";
 
 function Base({ children }: BaseProps) {
@@ -7,7 +8,7 @@ function Base({ children }: BaseProps) {
       <div
         className={`bg-repeat flex flex-col min-h-screen  w-[100%]`}
         style={{
-          backgroundImage: `url('/img/blueprint-background.png')`,
+          backgroundImage: `url('${prefix}/img/blueprint-background.png')`,
         }}
       >
         <main className="flex flex-grow h-[100%] w-[100%] py-4 px-10">
