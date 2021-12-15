@@ -1,6 +1,10 @@
 @layer components {
   .live-text {
-    @apply text-white bg-blue font-bold text-[48px] leading-[56px];
+    @apply text-white font-bold text-[48px] leading-[56px] break-normal my-5;
+  }
+
+  .live-text > * {
+    @apply bg-blue;
   }
 
   .live-text:after {

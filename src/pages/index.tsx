@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div className="relative">
       <Head>
         <title>Nurfitra Pujo Santiko</title>
         <meta
@@ -17,8 +17,23 @@ const Home: NextPage = () => {
       </Head>
 
       <LiveText
-        liveTitle={["Testing LiveText component...", "It has been tested"]}
+        liveTitle={[
+          "Hi there,",
+          "I am Nurfitra Pujo Santiko",
+          "Web Developer",
+          "Software Engineer",
+        ]}
       />
+
+      <h2 className="font-body text-white">About</h2>
+      <p className="max-w-2xl text-white">
+        Hello my name is Nurfitra Pujo Santiko. I am web developer and aspiring
+        Software Engineer. I want to create product that helps people live more
+        easily (especially myself chuckle).
+      </p>
+      <p className="max-w-xl text-white text-sm">
+        <b>P.S.</b>
+      </p>
     </div>
   );
 };
