@@ -1,6 +1,8 @@
+import dynamic from "next/dynamic";
 import { BaseProps } from "../../types/components/Layout/Base";
 import { prefix } from "../../utils/prefix";
-import { Footer } from "./Footer";
+
+const Footer = dynamic(() => import("./Footer"));
 
 function Base({ children }: BaseProps) {
   return (
