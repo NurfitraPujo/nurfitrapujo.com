@@ -2,11 +2,10 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { LiveText } from "../components/LiveText/LiveText";
-import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <div className="relative">
+    <div className="relative flex flex-row items-center">
       <Head>
         <title>Nurfitra Pujo Santiko</title>
         <meta
@@ -15,25 +14,30 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <article>
+        <LiveText
+          liveTitle={[
+            "Hi there,",
+            "I am Nurfitra Pujo Santiko",
+            "Web Developer",
+            "Software Engineer",
+          ]}
+        />
 
-      <LiveText
-        liveTitle={[
-          "Hi there,",
-          "I am Nurfitra Pujo Santiko",
-          "Web Developer",
-          "Software Engineer",
-        ]}
-      />
-
-      <h2 className="font-body text-white">About</h2>
-      <p className="max-w-2xl text-white">
-        Hello my name is Nurfitra Pujo Santiko. I am web developer and aspiring
-        Software Engineer. I want to create product that helps people live more
-        easily (especially myself chuckle).
-      </p>
-      <p className="max-w-xl text-white text-sm">
-        <b>P.S.</b>
-      </p>
+        <h2 className="font-body text-white">About</h2>
+        <p className="max-w-3xl text-white text-xl">
+          Hello my name is Nurfitra Pujo Santiko. I am web developer and
+          aspiring Software Engineer. I want to create product that helps people
+          live more easily (especially myself chuckle).
+        </p>
+        <div className="mt-5 max-w-2xl text-white text-base flex flex-row align-baseline space-x-4">
+          <b>P.S.</b>
+          <p>
+            I’m searching for Open Source projects to contribute to. Feel free
+            to contact me if you need help in your projects!
+          </p>
+        </div>
+      </article>
     </div>
   );
 };
