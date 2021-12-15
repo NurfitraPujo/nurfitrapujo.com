@@ -1,12 +1,13 @@
 import * as Tooltip from "@radix-ui/react-tooltip";
 import { SocialMediaIconProps } from "../../types/components/SocialMediaIcon/SocialMediaIcon";
 
-function SocialMediaIcon({ children, text, link }: SocialMediaIconProps) {
+function SocialMediaIcon({ children, text, link, name }: SocialMediaIconProps) {
   return (
     <Tooltip.Provider>
       <Tooltip.Root>
-        <Tooltip.Trigger>
+        <Tooltip.Trigger name={name}>
           <a href={link} target={"_blank"} rel="noreferrer">
+            <p className="hidden">{name}</p>
             {children}
           </a>
         </Tooltip.Trigger>
