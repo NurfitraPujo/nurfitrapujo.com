@@ -16,7 +16,7 @@ module.exports = {
   async headers() {
     return [
       {
-        source: "/:all*(svg|jpg|png)",
+        source: "/img/:all*(svg|jpg|png)",
         locale: false,
         headers: [
           {
@@ -26,7 +26,7 @@ module.exports = {
         ],
       },
       {
-        source: "/framework*",
+        source: "/_next/static/chunks/(framework|main)*",
         locale: false,
         headers: [
           {
