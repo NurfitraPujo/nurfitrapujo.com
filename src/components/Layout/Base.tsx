@@ -13,7 +13,7 @@ function Base({ children }: BaseProps) {
           backgroundImage: `url('${prefix}/img/blueprint-background.png')`,
         }}
       >
-        <main className="flex flex-grow h-[100%] w-[100%] py-4 px-10">
+        <main className="flex-grow flex h-[100%] w-[100%] py-4 px-5 sm:px-10 ">
           {children}
         </main>
         <Footer />

@@ -5,7 +5,7 @@ function SocialMediaIcon({ children, text, link, name }: SocialMediaIconProps) {
   return (
     <Tooltip.Provider>
       <Tooltip.Root>
-        <Tooltip.Trigger name={name}>
+        <Tooltip.Trigger>
           <a href={link} target={"_blank"} rel="noreferrer">
             <p className="hidden">{name}</p>
             {children}

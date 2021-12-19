@@ -1,6 +1,6 @@
 @layer components {
   .live-text {
-    @apply text-white font-bold text-[48px] leading-[56px] break-normal my-5;
+    @apply text-white font-bold text-[36px] sm:text-[48px] leading-[48px] sm:leading-[56px] break-normal my-5 h-[100px] sm:h-[100%];
   }
 
   .live-text > * {

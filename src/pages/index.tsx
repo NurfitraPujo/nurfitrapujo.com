@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         />
 
         <h2 className="font-body text-white">About</h2>
-        <p className="max-w-3xl text-white text-xl">
+        <p className="max-w-3xl text-white text-sm md:text-2xl">
           Hello my name is Nurfitra Pujo Santiko. I am web developer and
           aspiring Software Engineer. I want to create product that helps people
           live more easily (especially myself chuckle).
