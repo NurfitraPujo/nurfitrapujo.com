@@ -19,8 +19,7 @@ const Home: NextPage = () => {
           liveTitle={[
             "Hi there,",
             "I am Nurfitra Pujo Santiko",
-            "Web Developer",
-            "Software Engineer",
+            "Web Developer"
           ]}
         />
 
