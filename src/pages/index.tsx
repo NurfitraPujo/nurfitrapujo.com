@@ -14,20 +14,21 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <article>
-        <LiveText
-          liveTitle={[
-            "Hi there,",
-            "I am Nurfitra Pujo Santiko",
-            "Web Developer",
-          ]}
-        />
+      <article className="z-0">
+        <header className="relative flex flex-col align-start">
+          <h2 className="font-body text-white text-xl">Hello, i am</h2>
+          <h1 className="mt-0 text-5xl md:text-6xl text-white max-w-[443px] break-words">
+            Nurfitra Pujo Santiko
+          </h1>
+          <h2 className="z-[-1] absolute text-5xl md:text-6xl text-subtle-black top-40 md:top-16 left-0 md:left-5 max-w-[443px] break-words">
+            Web Developer
+          </h2>
+        </header>
 
-        <h2 className="font-body text-white">About</h2>
         <p className="max-w-3xl text-white text-sm md:text-2xl">
-          Hello my name is Nurfitra Pujo Santiko. I am web developer and aspring
-          Software Engineer. My dream is crafting product that can bring changes
-          to the world and help millions of people.
+          I am web developer and aspring Software Engineer. My dream is crafting
+          product that can bring changes to the world and help millions of
+          people.
         </p>
         <div className="mt-5 max-w-2xl text-white text-base flex flex-row align-baseline space-x-4">
           <b>P.S.</b>

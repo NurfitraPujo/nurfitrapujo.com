@@ -7,11 +7,12 @@ module.exports = {
     colors: {
       transparent: "transparent",
       black: "#232426",
+      "subtle-black": "#333333",
       white: "#fff",
       blue: "#3C95FF",
     },
     fontFamily: {
-      display: ["Ubuntu Mono", "monospace"],
+      display: ["Poppins", "monospace"],
       body: ["Work Sans", "sans-serif"],
     },
     extend: {},
