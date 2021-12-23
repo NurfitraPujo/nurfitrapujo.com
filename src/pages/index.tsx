@@ -19,15 +19,15 @@ const Home: NextPage = () => {
           liveTitle={[
             "Hi there,",
             "I am Nurfitra Pujo Santiko",
-            "Web Developer"
+            "Web Developer",
           ]}
         />
 
         <h2 className="font-body text-white">About</h2>
         <p className="max-w-3xl text-white text-sm md:text-2xl">
-          Hello my name is Nurfitra Pujo Santiko. I am web developer and
-          aspiring Software Engineer. I want to create product that helps people
-          live more easily (especially myself chuckle).
+          Hello my name is Nurfitra Pujo Santiko. I am web developer and aspring
+          Software Engineer. My dream is crafting product that can bring changes
+          to the world and help millions of people.
         </p>
         <div className="mt-5 max-w-2xl text-white text-base flex flex-row align-baseline space-x-4">
           <b>P.S.</b>
