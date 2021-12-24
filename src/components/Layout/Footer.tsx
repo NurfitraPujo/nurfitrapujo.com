@@ -9,9 +9,7 @@ function Footer() {
         <Tooltip.Provider>
           <Tooltip.Root delayDuration={0}>
             <Tooltip.Trigger>
-              <a>
-                <b className="text-white">P.S.</b>
-              </a>
+              <b className="text-white">P.S.</b>
             </Tooltip.Trigger>
             <Tooltip.Content
               side="top"

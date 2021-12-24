@@ -1,7 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
-import { LiveText } from "../components/LiveText/LiveText";
 
 const Home: NextPage = () => {
   return (
