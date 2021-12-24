@@ -11,7 +11,7 @@ function SocialMediaIcon({ children, text, link, name }: SocialMediaIconProps) {
             {children}
           </a>
         </Tooltip.Trigger>
-        <Tooltip.Content side="top" align="center">
+        <Tooltip.Content side="top" sideOffset={3} align="center">
           <div className="bg-blue px-1 py-1.5 border-none">
             <p className="text-white font-display">{text}</p>
           </div>

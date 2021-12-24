@@ -15,7 +15,9 @@ module.exports = {
       display: ["Poppins", "monospace"],
       body: ["Work Sans", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [],
 };
